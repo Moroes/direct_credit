@@ -25,11 +25,11 @@ import psycopg2
 import os
 
 DB_CONFIG = {
-    'dbname': os.environ.get("DB_NAME", "test"),
+    'dbname': os.environ.get("DB_NAME", "postgres"),
     'host': os.environ.get("HOST", "localhost"),
     'port': os.environ.get("PORT", "5432"),
     'user': os.environ.get("USER", "postgres"),
-    'password': os.environ.get("PASSWORD", "asdhfgjk23821")
+    'password': os.environ.get("PASSWORD", "")
 }
 
 SQL_PATH = "./5.sql"
