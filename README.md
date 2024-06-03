@@ -28,6 +28,7 @@ venv\Scripts\activate
 ```bash
 psql -U postgres -d postgres -f ./sql/5_DDL.sql
 ```
+![image](https://github.com/Moroes/direct_credit/assets/62904051/6a9f4863-6bc0-43bd-9c99-93766bc1c51d)
 
 ### 5. Run python file
 ```bash
